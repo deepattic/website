@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'JetBrains';
+  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+:root {
+  --misty-rose: #fde8e9;
+  --ftail: #e3bac6;
+  --lilac: #bc9ec1;
+  --rsinbalck: #1f2232;
+  --pgray: #596475;
+
+}
+
+.light {
+  --bg-color: var(--misty-rose);
+  --fg-color: var(--rsinbalck);
+}
+
+.dark {
+  --bg-color: var(--rsinbalck);
+  --fg-color: var(--ftail);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains';
+  color: var(--fg-color);
+  background: var(--bg-color);
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('svg/polygon-scatter-haikei.svg');
+}
