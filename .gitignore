@@ -2,3 +2,6 @@
 /public
 package-lock.json
 package.json
+
+# exclude outputcss
+/static/styles/output.css
