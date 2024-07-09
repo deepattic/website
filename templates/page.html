@@ -1,25 +1,12 @@
-{% extends "base.html" %}
-
-{% block content %}
-<!--   <div class="container"> -->
-<!--     <div class="flex justify-center"> -->
-<!--       <h1 class="text-5xl py-6"> -->
-<!--       </h1> -->
-<!--     </div> -->
-<!---->
-<!--     <div class="hero-content text-center"> -->
-<!-- <p class="subtitle"><strong>{{ page.date }}</strong></p> -->
-<!-- {{ page.content | safe }} -->
-<!--     </div> -->
-<!--   </div> -->
+{% extends "base.html" %} {% block content %}
 
 <!-- hero -->
 <div class="hero bg-base-200 min-h-screen">
   <div class="hero-content text-center">
     <div class="max-w-5xl">
-      <h1 class="text-5xl font-bold">{{ page.title }}</h1>
-      {{ page.content | safe }}
+     <!--  <h1 class="text-5xl font-bold">{{ page.title }}</h1> -->
     </div>
+    <div class="markdown">{{ page.content | safe }}</div>
   </div>
 </div>
 {% endblock content %}

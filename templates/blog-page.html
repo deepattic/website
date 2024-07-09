@@ -8,6 +8,9 @@
 </h1>
   </div>
 <p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }}
+<div class="markdown">
+  {{ page.content | safe }}
+</div>
+
 </div>
 {% endblock content %}
