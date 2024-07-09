@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="flex justify-center py-6">
+  <h1 class="text-2xl font-bold">
+    {{ section.title }}
+  </h1>
+</div>
+
+<div class="container py-6 flex justify-center">
+  <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
+    {% for page in section.pages %}
+    <!-- Card Start -->
+    <div class="card bg-primary text-primary-content w-96">
+      <div class="card-body">
+          <h2 class="card-title">{{ page.title }}</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+            <a href="{{ page.permalink | safe }}"><button class="btn">Read more.</button></a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock content %}

@@ -9,6 +9,14 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+
+      - name: TailwindCss Build
+        run: |
+             curl -sLO https://github.com/dobicinaitis/tailwind-cli-extra/releases/download/v1.7.5/tailwindcss-extra-linux-x64
+             chmod +x tailwindcss-extra-linux-x64
+             mv tailwindcss-extra-linux-x64 /usr/local/bin/tailwindcss
+             tailwindcss -i static/styles/input.css -o static/styles/output.css --minify
+
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
