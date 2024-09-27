@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DeepAttic!</title><link>https://supun.codeberg.page/</link><description>Recent content on DeepAttic!</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Supun Gimres</copyright><lastBuildDate>Thu, 26 Sep 2024 15:05:41 +0000</lastBuildDate><atom:link href="https://supun.codeberg.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Hi</title><link>https://supun.codeberg.page/posts/hi/</link><pubDate>Thu, 26 Sep 2024 15:05:41 +0000</pubDate><guid>https://supun.codeberg.page/posts/hi/</guid><description>&lt;p>Just wanted to say &lt;strong>&amp;ldquo;Hi&amp;rdquo;&lt;/strong> and &lt;strong>&amp;ldquo;Thank you&amp;rdquo;&lt;/strong> for stopping by.&lt;/p>
+&lt;h3 class="relative group">So Im gonna use this space to list out references and give credits.
+&lt;div id="so-im-gonna-use-this-space-to-list-out-references-and-give-credits" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#so-im-gonna-use-this-space-to-list-out-references-and-give-credits" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://wallhaven.cc/w/2k9o1m" target="_blank">Background Image&lt;/a> used at the front&lt;/li>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://supun.codeberg.page/posts/hi/featured.png"/></item><item><title>Awesome DataScience Courses</title><link>https://supun.codeberg.page/posts/university/</link><pubDate>Thu, 26 Sep 2024 14:56:31 +0000</pubDate><guid>https://supun.codeberg.page/posts/university/</guid><description>&lt;h2 class="relative group">Introduction &lt;a href="https://github.com/sindresorhus/awesome" target="_blank">
+&lt;figure>
+&lt;img class="my-0 rounded-md" loading="lazy" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" />
+&lt;/figure>
+&lt;/a>
+&lt;div id="introduction-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#introduction-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>There are a lot of &lt;del>hidden&lt;/del>(not actually) treasures lying scattered across the internet. This list is an attempt to bring to light those awesome courses which make their high-quality materials, i.e. assignments, lectures, notes, readings and examinations, available online for free.&lt;a href="https://github.com/prakhar1989/awesome-courses/blob/master/README.md" target="_blank">[1]&lt;/a>&lt;/p>
+&lt;p>So basically, &lt;strong>This is a personal note for high-quality materials found on the internet for my Data Science degree program at Sabaragamuwa University of Sri Lanka(SUSL).&lt;/strong>&lt;/p></description></item><item><title>Commands that i used to optimize my Images</title><link>https://supun.codeberg.page/notes/images/imageoptimize/</link><pubDate>Thu, 26 Sep 2024 14:56:31 +0000</pubDate><guid>https://supun.codeberg.page/notes/images/imageoptimize/</guid><description>&lt;h1 class="relative group">AV1F
+&lt;div id="av1f" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#av1f" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;ul>
+&lt;li>First Install &lt;code>avifenc&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>i don&amp;rsquo;t know about other distros but on Void
+&lt;code>xbps-install libavif&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>avifenc -j &lt;span style="color:#ae81ff">2&lt;/span> -d &lt;span style="color:#ae81ff">10&lt;/span> -y &lt;span style="color:#ae81ff">422&lt;/span> --min &lt;span style="color:#ae81ff">24&lt;/span> --max &lt;span style="color:#ae81ff">24&lt;/span> --minalpha &lt;span style="color:#ae81ff">24&lt;/span> --maxalpha &lt;span style="color:#ae81ff">24&lt;/span> input.img output.avif
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 class="relative group">&lt;em>&lt;u>Note&lt;/u>&lt;/em>
+&lt;div id="unoteu" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#unoteu" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>increase number of theards to speed up the process &lt;code>-j 4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h1 class="relative group">WEBP
+&lt;div id="webp" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#webp" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;ul>
+&lt;li>install &lt;code>imagemagick&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>For &lt;em>lossless&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>magick mogrify -format webp -quality &lt;span style="color:#ae81ff">50&lt;/span> -define webp:lossless&lt;span style="color:#f92672">=&lt;/span>true input.png output.webp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;em>lossy&lt;/em> compression&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>magick mogrify -format webp -quality &lt;span style="color:#ae81ff">82&lt;/span> input.png output.webp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h1 class="relative group">JPEG
+&lt;div id="jpeg" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#jpeg" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>i just dont use jpeg images but here is a command found in the web&lt;/p></description></item><item><title/><link>https://supun.codeberg.page/about/</link><pubDate>Thu, 26 Sep 2024 13:57:22 +0000</pubDate><guid>https://supun.codeberg.page/about/</guid><description>&lt;h1 class="relative group">Nothing Here but Crickets!.
+&lt;div id="nothing-here-but-crickets" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#nothing-here-but-crickets" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;p>example random content page for now . will update soon &amp;hellip;&lt;/p>
+&lt;h1 class="relative group">About
+&lt;div id="about" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#about" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://supun.codeberg.page/about/featured.png"/></item></channel></rss>

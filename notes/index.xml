@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on DeepAttic!</title><link>https://supun.codeberg.page/notes/</link><description>Recent content in Notes on DeepAttic!</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Supun Gimres</copyright><lastBuildDate>Thu, 26 Sep 2024 14:56:31 +0000</lastBuildDate><atom:link href="https://supun.codeberg.page/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Commands that i used to optimize my Images</title><link>https://supun.codeberg.page/notes/images/imageoptimize/</link><pubDate>Thu, 26 Sep 2024 14:56:31 +0000</pubDate><guid>https://supun.codeberg.page/notes/images/imageoptimize/</guid><description>&lt;h1 class="relative group">AV1F
+&lt;div id="av1f" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#av1f" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;ul>
+&lt;li>First Install &lt;code>avifenc&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>i don&amp;rsquo;t know about other distros but on Void
+&lt;code>xbps-install libavif&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>avifenc -j &lt;span style="color:#ae81ff">2&lt;/span> -d &lt;span style="color:#ae81ff">10&lt;/span> -y &lt;span style="color:#ae81ff">422&lt;/span> --min &lt;span style="color:#ae81ff">24&lt;/span> --max &lt;span style="color:#ae81ff">24&lt;/span> --minalpha &lt;span style="color:#ae81ff">24&lt;/span> --maxalpha &lt;span style="color:#ae81ff">24&lt;/span> input.img output.avif
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 class="relative group">&lt;em>&lt;u>Note&lt;/u>&lt;/em>
+&lt;div id="unoteu" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#unoteu" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>increase number of theards to speed up the process &lt;code>-j 4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h1 class="relative group">WEBP
+&lt;div id="webp" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#webp" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;ul>
+&lt;li>install &lt;code>imagemagick&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>For &lt;em>lossless&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>magick mogrify -format webp -quality &lt;span style="color:#ae81ff">50&lt;/span> -define webp:lossless&lt;span style="color:#f92672">=&lt;/span>true input.png output.webp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;em>lossy&lt;/em> compression&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>magick mogrify -format webp -quality &lt;span style="color:#ae81ff">82&lt;/span> input.png output.webp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h1 class="relative group">JPEG
+&lt;div id="jpeg" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#jpeg" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;blockquote>
+&lt;p>i just dont use jpeg images but here is a command found in the web&lt;/p></description></item></channel></rss>
